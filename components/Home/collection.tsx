@@ -9,6 +9,14 @@ import CollectionTypes from "../interfaces/collectionTypes";
 import { SmallTitle } from "../Typography/Typography";
 import { ParagraphBlack } from "../Typography/Typography";
 
+//font
+import { Fraunces } from "next/font/google";
+
+const fraunces = Fraunces({
+  subsets: ["latin"],
+  weight: "800",
+});
+
 const collectionSpan: CollectionTypes[] = [
   {
     id: 1,
@@ -41,7 +49,7 @@ const Collection = () => {
     <section className="">
       <div className="mt-[120px] md:mt-[136px]">
         <h1 className="bg-gradient-to-b from-[#83888F]/70 text-[40px] md:text-[70px] text-center rounded-xl md:rounded-2xl text-white/35 font-bold">
-          our collection
+          <span className={`${fraunces.className}`}> our collection</span>
         </h1>
       </div>
 
@@ -68,7 +76,7 @@ const Collection = () => {
           })}
         </div>
         {/* end of tablet and laptop screen */}
-        <div className="md:hidden flex flex-col gap-[48px] justify-center items-center">
+        <div className="md:hidden mb-[140px] flex flex-col gap-[48px] justify-center items-center">
           {collectionSpan.map(({ id, image, name, note }) => {
             return (
               <article key={id} className="">

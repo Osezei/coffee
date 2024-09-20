@@ -82,33 +82,3 @@ body {
     background-size: contain;
   }
 }
-
-.container {
-  position: relative;
-}
-.pseudo {
-  width: 100%;
-  height: 525px;
-}
-.pseudo-before:before {
-  content: "our collection";
-  font-size: 80px;
-  position: absolute;
-  color: #979797;
-  font-weight: 900;
-  opacity: 0.3;
-  top: 136px;
-  left: 30%;
-  /* display: flex;
-  flex-direction: center; */
-  z-index: -1;
-}
-/* .pseudo-after:after {
-  content: "Tutorialspoint";
-  position: absolute;
-  transform: rotate(320deg);
-  color: green;
-  opacity: 0.3;
-  left: 50%;
-  z-index: -1;
-} */

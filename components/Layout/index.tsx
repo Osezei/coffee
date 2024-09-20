@@ -11,7 +11,7 @@ const Layout = ({ children, activePage }: LayoutTypes) => {
 
   return (
     <div>
-      <Loader />
+      {/* <Loader /> */}
       <Navigation active={activePage} />
       <div className="flex flex-col">
         <main className="flex-1">{children}</main>

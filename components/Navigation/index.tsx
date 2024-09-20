@@ -8,8 +8,15 @@ import Burger from "../../public/assets/shared/mobile/icon-hamburger.svg";
 import Close from "../../public/assets/shared/mobile/icon-close.svg";
 import Container from "../Container";
 import "animate.css";
+//font
+import { Barlow } from "next/font/google";
 
-const navLinks: NavigationTypes[] = [
+const barlow = Barlow({
+  weight: "400",
+  subsets: ["latin"],
+});
+
+export const navLinks: NavigationTypes[] = [
   {
     id: 1,
     title: "home",
@@ -34,7 +41,9 @@ const Navigation = ({ active }: MenuTypes) => {
   };
   return (
     <Container>
-      <nav className="flex justify-between items-center my-[32px] md:my-[40px]">
+      <nav
+        className={`flex justify-between items-center my-[32px] md:my-[40px] ${barlow.className}`}
+      >
         <div className="lg:w-[203px] lg:h-[24px] w-[163px] h-[18px]  relative object-contain">
           <Image
             src={Logo}
