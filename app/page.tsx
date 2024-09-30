@@ -4,6 +4,7 @@ import Hero from "@/components/Home/Hero";
 import Container from "@/components/Container";
 import Collection from "@/components/Home/collection";
 import Choose from "@/components/Home/Choose";
+import Works from "@/components/Works";
 
 export default function Home() {
   const activePage = "home";
@@ -14,6 +15,7 @@ export default function Home() {
           <Hero />
           <Collection />
           <Choose />
+          <Works />
         </Container>
       </Layout>
     </div>

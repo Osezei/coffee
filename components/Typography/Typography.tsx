@@ -74,3 +74,31 @@ export const Title: React.FC<Props> = ({ children }) => {
     </div>
   );
 };
+export const TitleBlack: React.FC<Props> = ({ children }) => {
+  return (
+    <div
+      className={`text-[#333D4B] font-bold text-[40px] ${fraunces.className}`}
+    >
+      {children}
+    </div>
+  );
+};
+export const TitleWork: React.FC<Props> = ({ children }) => {
+  return (
+    <div
+      className={` text-[#FDD6BA] font-bold text-[72px] ${fraunces.className}`}
+    >
+      {children}
+    </div>
+  );
+};
+
+export const TitleGrey: React.FC<Props> = ({ children }) => {
+  return (
+    <div
+      className={`text-[#83888F] font-bold text-[24px] ${fraunces.className}`}
+    >
+      {children}
+    </div>
+  );
+};

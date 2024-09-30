@@ -35,10 +35,22 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .about-hero {
+    background-image: url("../public/assets/about/desktop/image-hero-whitecup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 @media only screen and (max-width: 768px) {
   .hero-mobile {
     background-image: url("../public/assets/home/tablet/image-hero-coffeepress.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .about-hero {
+    background-image: url("../public/assets/about/tablet/image-hero-whitecup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,18 +64,15 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .about-hero {
+    background-image: url("../public/assets/about/mobile/image-hero-whitecup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 /* end responsive hero screeen */
-/* 
-.word-collection {
-  text-shadow: #fefcf7;
-  background-color: linear-gradient(to bottom right, red, yellow);
-  color: green;
-  color: ;
-  opacity: 50%;
-  appearance: ;
-} */
 
 /* responsiveness for  collection */
 @media only screen and (min-width: 768px) {
