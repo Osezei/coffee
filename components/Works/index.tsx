@@ -73,6 +73,3 @@ const Works = () => {
 };
 
 export default Works;
-
-//Create your plan Home
-// About us Create your plan

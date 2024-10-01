@@ -68,7 +68,7 @@ export const ParagraphBlack: React.FC<Props> = ({ children }) => {
 export const Title: React.FC<Props> = ({ children }) => {
   return (
     <div
-      className={`text-[#FEFCF7] font-bold text-[40px] ${fraunces.className}`}
+      className={`text-[#FEFCF7] font-bold text-[28px] lg:text-[40px] ${fraunces.className}`}
     >
       {children}
     </div>

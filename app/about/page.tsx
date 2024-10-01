@@ -4,6 +4,7 @@ import Container from "@/components/Container";
 import HeroPage from "./Hero-page";
 import Commitment from "./commitment";
 import Quality from "./Quality";
+import Countries from "./Countries";
 
 const About = () => {
   const activePage = "about us";
@@ -13,6 +14,7 @@ const About = () => {
         <HeroPage />
         <Commitment />
         <Quality />
+        <Countries />
       </Container>
     </Layout>
   );
