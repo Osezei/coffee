@@ -4,7 +4,7 @@ import Group from "@/public/Group 13.png";
 import Gran from "@/public/assets/home/desktop/image-gran-espresso.png";
 import Planalto from "@/public/assets/home/desktop/image-planalto.png";
 import Piccollo from "@/public/assets/home/desktop/image-piccollo.png";
-import Danche from "/Users/user/Desktop/coffee/public/assets/home/desktop/image-danche.png";
+import Danche from "@/public/assets/home/desktop/image-danche.png";
 import CollectionTypes from "../interfaces/collectionTypes";
 import { SmallTitle } from "../Typography/Typography";
 import { ParagraphBlack } from "../Typography/Typography";
