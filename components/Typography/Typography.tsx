@@ -77,7 +77,7 @@ export const Title: React.FC<Props> = ({ children }) => {
 export const TitleBlack: React.FC<Props> = ({ children }) => {
   return (
     <div
-      className={`text-[#333D4B] font-bold text-[40px] ${fraunces.className}`}
+      className={`text-[#333D4B] font-bold text-[24px] md:text-[40px] ${fraunces.className}`}
     >
       {children}
     </div>

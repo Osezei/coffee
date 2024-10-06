@@ -3,6 +3,7 @@ import Layout from "@/components/Layout";
 import Container from "@/components/Container";
 import Form from "./Form";
 import HeroPlan from "./HeroPlan";
+import Works from "@/components/Works";
 
 const Plan = () => {
   const activePage = "create your plan";
@@ -10,6 +11,7 @@ const Plan = () => {
     <Layout activePage={activePage}>
       <Container>
         <HeroPlan />
+        <Works />
         <Form />
       </Container>
     </Layout>

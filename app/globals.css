@@ -27,6 +27,12 @@
 body {
   background-color: #fefcf7;
 }
+.summary-bg {
+  background-image: url("../public/assets/plan/desktop/bg-order-summary.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 /* responsive hero screeen */
 @media only screen and (min-width: 768px) {
   .hero-mobile {
@@ -37,6 +43,12 @@ body {
   }
   .about-hero {
     background-image: url("../public/assets/about/desktop/image-hero-whitecup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .plan-hero {
+    background-image: url("../public/assets/plan/desktop/image-hero-blackcup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,6 +67,12 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .plan-hero {
+    background-image: url("../public/assets/plan/tablet/image-hero-blackcup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 }
 
 @media only screen and (max-width: 327px) {
@@ -66,6 +84,12 @@ body {
   }
   .about-hero {
     background-image: url("../public/assets/about/mobile/image-hero-whitecup.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .plan-hero {
+    background-image: url("../public/assets/plan/mobile/image-hero-blackcup.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
