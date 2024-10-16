@@ -55,7 +55,7 @@ const Countries = () => {
       <div className="mb-[72px]">
         <TitleGrey>Our headquarters</TitleGrey>
       </div>
-      <div className="flex flex-col md:flex-row justify-between">
+      <div className="flex flex-co md:flex-ro flex-wrap justify-between">
         {countryInfo.map(
           ({ id, title, address, phoneNumber, state, add, image }) => {
             return (
