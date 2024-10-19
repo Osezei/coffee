@@ -2,13 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-*,
+/* *,
 ::after,
 ::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -114,4 +114,14 @@ body {
     background-repeat: no-repeat;
     background-size: contain;
   }
+}
+.progress-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  background: #fdd6ba;
+  transform-origin: 0%;
+  z-index: 999;
 }

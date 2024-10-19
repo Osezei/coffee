@@ -99,7 +99,7 @@ const Navigation = ({ active }: MenuTypes) => {
         </div>
       </nav>
       <div
-        className={`${
+        className={`md:hidden ${
           toggle
             ? "fixed z-30 h-screen top-[80px] left-0 w-full mx-auto bg-[#fefcf7]"
             : "hidden"
